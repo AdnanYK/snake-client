@@ -14,14 +14,14 @@ const connect = function () {
     conn.write('Name: AYK');
   
 
-    for (let i = 1; i < 40; i++) {
-      setTimeout(() => {
-        conn.write('Move: left');
-        setTimeout(() => {
-          conn.write('Move: down');
-        }, 200)
-      }, i * 400)
-    }
+    // for (let i = 1; i < 40; i++) {
+    //   setTimeout(() => {
+    //     conn.write('Move: left');
+    //     setTimeout(() => {
+    //       conn.write('Move: down');
+    //     }, 200)
+    //   }, i * 400)
+    // }
 
     
   });
